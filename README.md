@@ -4,7 +4,7 @@ A personal full-stack portfolio website to showcase projects, skills, and profes
 
 ## 🔧 Tech Stack
 
-- **Frontend**: Vue.js
+- **Frontend**: Ract.js
 - **Backend**: Laravel 9
 - **Database**: MySQL
 - **DevOps**: GitHub Actions (CI/CD)
