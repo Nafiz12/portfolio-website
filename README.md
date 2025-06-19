@@ -28,7 +28,7 @@ A personal full-stack portfolio website to showcase projects, skills, and profes
 
 ## 📚 Purpose
 
-This project supports my personal branding and allows me to apply cloud deployment and system design skills hands-on while demonstrating real-world Laravel and Vue.js integration.
+This project supports my personal branding and allows me to apply cloud deployment and system design skills hands-on while demonstrating real-world Laravel and React.js integration.
 
 ## 📎 Demo & Screenshots
 
