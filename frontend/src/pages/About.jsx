@@ -92,10 +92,43 @@ export default function About() {
           {/* Projects */}
 <div>
   <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">🛠️ Projects</h2>
-  <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-    <li><strong>Portfolio Website:</strong> Full-stack site using Laravel & Vue.js with admin panel and AWS S3 integration (in progress).</li>
-    <li><strong>Audit360 (Internal Tool):</strong> Helped develop new microservice-based system for internal audit management at DataSoft.</li>
-    <li><strong>Microfin360:</strong> Financial SaaS used by 700+ MFIs across Bangladesh, modernized using Laravel and Spring Boot.</li>
+
+  <ul className="list-disc list-inside text-sm text-gray-600 space-y-2">
+    <li>
+      <strong>Steam App Redesign</strong> – Figma UI/UX project.{' '}
+      <a
+        href="https://www.figma.com/proto/9MOwEjJw7MLDtJEzdLokeY/Steam-App-Redesign?type=design&node-id=497-1354&scaling=scale-down&page-id=0%3A1&starting-point-node-id=497%3A1354&mode=design"
+        className="text-blue-600 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Design
+      </a>
+    </li>
+    <li>
+      <strong>Western Student Center Redesign</strong> – Usability-focused registration module redesign.{' '}
+      <a
+        href="https://www.figma.com/proto/eEzSOVkzETPLvmQ2xyHiuh/Course-Register?node-id=129-4533&page-id=0%3A1"
+        className="text-blue-600 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Design
+      </a>
+    </li>
+    <li>
+      <strong>Portfolio Website (In Progress)</strong> – Built using Laravel and React.js with admin panel, AWS S3 integration, and CI/CD on EC2.{' '}
+      <a
+        href="https://github.com/Nafiz12/portfolio-website"
+        className="text-blue-600 hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub Repo
+      </a>
+    </li>
+    <li><strong>Audit360 :</strong> Helped develop new microservice-based system for audit management at DataSoft using Spring Boot.</li>
+    <li><strong>Microfin360:</strong> Financial SaaS used by 700+ MFIs across Bangladesh, modernized using Laravel and Vue.js.</li>
   </ul>
 </div>
 

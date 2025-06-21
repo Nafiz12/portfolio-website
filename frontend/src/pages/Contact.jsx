@@ -6,7 +6,7 @@ export default function Contact() {
 
         <div className="text-center text-gray-700 mb-8 space-y-2">
           <p><strong>Email:</strong> nafizalifat@gmail.com</p>
-          <p><strong>Phone:</strong> +1 (226) 700-8809</p>
+          <p><strong>Phone:</strong> +1 (437) 733-4613</p>
           <p><strong>Location:</strong> London, Ontario, Canada</p>
           <p>
             <strong>LinkedIn:</strong>{' '}
