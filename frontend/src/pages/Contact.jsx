@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <section className="w-screen min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
-      <div className="max-w-3xl w-full bg-white p-8 rounded-lg shadow-md">
+  <section id="skills" className="w-screen min-h-screen bg-gray-50 px-4 flex items-center justify-center">
+  <div className="max-w-6xl w-full bg-white p-8 rounded-lg shadow-md">
         <h1 className="text-4xl font-bold text-blue-600 mb-6 text-center">Contact Me</h1>
 
         <div className="text-center text-gray-700 mb-8 space-y-2">

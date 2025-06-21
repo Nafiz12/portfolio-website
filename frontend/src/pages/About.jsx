@@ -2,7 +2,7 @@ import graduation from '../assets/graduation.jpg';
 
 export default function About() {
   return (
-    <section className="w-screen min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
+    <section className="w-screen min-h-screen flex items-center justify-center bg-gray-50 px-4 py-6">
       <div className="max-w-6xl w-full bg-white p-8 rounded-lg shadow-md">
 
         {/* Top Row: About Me + Photo */}
@@ -10,12 +10,11 @@ export default function About() {
           {/* About Me Text */}
           <div className="md:w-2/3 text-left">
             <h1 className="text-4xl font-bold text-blue-600 mb-6">About Me</h1>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              I’m <strong>Md Nafiz Al Ifat</strong>, a full-stack software engineer with over <strong>7 years of experience</strong> building scalable, secure, and user-centered web applications. My expertise spans across <strong>Laravel, Vue.js, React, Java</strong>, and <strong>MySQL</strong>. I recently completed my <strong>Master’s in Computer Science</strong> at Western University with a focus on software architecture, usability, and secure APIs.
+            </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              I’m <strong>Md Nafiz Al Ifat</strong>, a full-stack software engineer with over <strong>7 years of experience</strong> 
-              building scalable, secure, and user-centered web applications. My expertise spans across 
-              <strong> Laravel, Vue.js, React, Java</strong>, and <strong>MySQL</strong>. I recently completed my 
-              <strong> Master’s in Computer Science</strong> at Western University with a focus on software architecture, 
-              usability, and secure APIs.
+              Since childhood, I’ve always been curious about how things work. I used to open up my toys just to understand their internal structure, even if I couldn't always put them back together! That passion evolved when my father, a mechanical engineer, brought home a computer in 2004. I was fascinated by how the hardware and software worked together so seamlessly. That spark of curiosity led me down the path of software engineering, and it still drives me today to learn, innovate, and build meaningful technology.
             </p>
           </div>
 
@@ -52,8 +51,6 @@ export default function About() {
           <div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">💼 Work Experience</h2>
             <div className="space-y-6">
-
-              {/* Graduate Teaching Assistant */}
               <div>
                 <h3 className="font-semibold">Graduate Teaching Assistant</h3>
                 <p className="text-sm text-gray-600">Western University (Jan 2024 – Apr 2025)</p>
@@ -63,8 +60,6 @@ export default function About() {
                   <li>Improved lab materials and provided direct feedback on assignments and projects.</li>
                 </ul>
               </div>
-
-              {/* Software Engineer – Microfin360 */}
               <div>
                 <h3 className="font-semibold">Software Engineer – Microfin360</h3>
                 <p className="text-sm text-gray-600">DataSoft Systems Bangladesh Ltd. (Jan 2020 – Nov 2023)</p>
@@ -75,8 +70,6 @@ export default function About() {
                   <li>Collaborated in Agile sprints, peer-reviewed code, and mentored junior engineers.</li>
                 </ul>
               </div>
-
-              {/* Software Developer */}
               <div>
                 <h3 className="font-semibold">Software Developer</h3>
                 <p className="text-sm text-gray-600">DataSoft Systems Bangladesh Ltd. (Jan 2017 – Dec 2019)</p>
@@ -89,58 +82,16 @@ export default function About() {
               </div>
             </div>
           </div>
-          {/* Projects */}
-<div>
-  <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">🛠️ Projects</h2>
 
-  <ul className="list-disc list-inside text-sm text-gray-600 space-y-2">
-    <li>
-      <strong>Steam App Redesign</strong> – Figma UI/UX project.{' '}
-      <a
-        href="https://www.figma.com/proto/9MOwEjJw7MLDtJEzdLokeY/Steam-App-Redesign?type=design&node-id=497-1354&scaling=scale-down&page-id=0%3A1&starting-point-node-id=497%3A1354&mode=design"
-        className="text-blue-600 hover:underline"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View Design
-      </a>
-    </li>
-    <li>
-      <strong>Western Student Center Redesign</strong> – Usability-focused registration module redesign.{' '}
-      <a
-        href="https://www.figma.com/proto/eEzSOVkzETPLvmQ2xyHiuh/Course-Register?node-id=129-4533&page-id=0%3A1"
-        className="text-blue-600 hover:underline"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View Design
-      </a>
-    </li>
-    <li>
-      <strong>Portfolio Website (In Progress)</strong> – Built using Laravel and React.js with admin panel, AWS S3 integration, and CI/CD on EC2.{' '}
-      <a
-        href="https://github.com/Nafiz12/portfolio-website"
-        className="text-blue-600 hover:underline"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub Repo
-      </a>
-    </li>
-    <li><strong>Audit360 :</strong> Helped develop new microservice-based system for audit management at DataSoft using Spring Boot.</li>
-    <li><strong>Microfin360:</strong> Financial SaaS used by 700+ MFIs across Bangladesh, modernized using Laravel and Vue.js.</li>
-  </ul>
-</div>
-
-{/* Certifications */}
-<div>
-  <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">📜 Certifications</h2>
-  <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-    <li>Prepare Data for Exploration (XWJYUBQREMJ2) Google Issued in March 2024 (Learning Path in Progress)</li>
-    <li>Ask Questions to Make Data-Driven Decisions (3SMZ8RMPVRTN) Google Issued in June 2023</li>
-    <li>Foundations: Data, Data, everywhere (L9UH6GSDZXSQ) Google Issued in January 2023</li>
-  </ul>
-</div>
+          {/* Certifications */}
+          <div>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">📜 Certifications</h2>
+            <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+              <li>Prepare Data for Exploration (XWJYUBQREMJ2) – Google (March 2024)</li>
+              <li>Ask Questions to Make Data-Driven Decisions (3SMZ8RMPVRTN) – Google (June 2023)</li>
+              <li>Foundations: Data, Data, Everywhere (L9UH6GSDZXSQ) – Google (January 2023)</li>
+            </ul>
+          </div>
 
           {/* Hobbies */}
           <div>
