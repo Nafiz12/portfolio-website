@@ -14,7 +14,7 @@ export default function About() {
               I’m <strong>Md Nafiz Al Ifat</strong>, a full-stack software engineer with over <strong>7 years of experience</strong> building scalable, secure, and user-centered web applications. My expertise spans across <strong>Laravel, Vue.js, React, Java</strong>, and <strong>MySQL</strong>. I recently completed my <strong>Master’s in Computer Science</strong> at Western University with a focus on software architecture, usability, and secure APIs.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Since childhood, I’ve always been curious about how things work. I used to open up my toys just to understand their internal structure, even if I couldn't always put them back together! That passion evolved when my father, a mechanical engineer, brought home a computer in 2004. I was fascinated by how the hardware and software worked together so seamlessly. That spark of curiosity led me down the path of software engineering, and it still drives me today to learn, innovate, and build meaningful technology.
+              Since childhood, I’ve always been curious about how things work. I used to open up my toys just to understand their internal structure. Even if I couldn't always put them back together! That passion evolved when my father, a mechanical engineer, brought home a computer in 2004. I was fascinated by how the hardware and software worked together so seamlessly. That spark of curiosity led me down the path of software engineering, and it still drives me today to learn, innovate, and build meaningful technology.
             </p>
           </div>
 
