@@ -27,7 +27,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              github.com/nafizalifat
+              github.com/Nafiz12
             </a>
           </p>
         </div>

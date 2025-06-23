@@ -38,7 +38,7 @@ export default function About() {
               <div>
                 <h3 className="font-semibold">Master’s in Computer Science</h3>
                 <p className="text-sm text-gray-600">Western University, Ontario (2024–2025)</p>
-                <p className="italic text-sm text-gray-500">Focus: Secure APIs, Usability, Software Architecture</p>
+                <p className="italic text-sm text-gray-500">Focus: Secure APIs, Usability, Software Architecture, Human-Computer Interaction (HCI), Design Principles, Usability, Design Thinking</p>
               </div>
               <div>
                 <h3 className="font-semibold">BSc in Software Engineering</h3>
@@ -80,6 +80,15 @@ export default function About() {
                   <li>Collaborated on UI/UX improvements and ensured cross-browser compatibility.</li>
                 </ul>
               </div>
+ <div>
+                <h3 className="font-semibold">InternShip</h3>
+                <p className="text-sm text-gray-600">DataSoft Systems Bangladesh Ltd. (October 2016 – Dec 2016)</p>
+                <ul className="list-disc list-inside text-sm text-gray-500 mt-1 space-y-1">
+                  <li>Built full-stack modules using PHP and HTML.</li>
+                  <li>Provided technical support and resolved product issues.</li>
+                </ul>
+              </div>
+
             </div>
           </div>
 
