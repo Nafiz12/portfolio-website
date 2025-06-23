@@ -22,7 +22,7 @@ export default function Contact() {
           <p>
             <strong>GitHub:</strong>{' '}
             <a
-              href="https://github.com/nafizalifat"
+              href="https://github.com/Nafiz12"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
