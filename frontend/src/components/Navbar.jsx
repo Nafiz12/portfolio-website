@@ -16,7 +16,8 @@ export default function Navbar() {
 
         {/* Right resume button */}
         <a
-          href="/Al_Ifat_Md Nafiz _Resume.pdf"
+
+          href="/Al_Ifat_Md_Nafiz_Resume.pdf"
           download
           className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 font-semibold rounded hover:bg-blue-700 transition"
           style={{ color: 'white' }}
