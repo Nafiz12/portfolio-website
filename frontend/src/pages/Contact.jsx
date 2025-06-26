@@ -5,7 +5,7 @@ export default function Contact() {
         <h1 className="text-4xl font-bold text-blue-600 mb-6 text-center">Contact Me</h1>
 
         <div className="text-center text-gray-700 mb-8 space-y-2">
-          <p><strong>Email:</strong> nafizalifat@gmail.com</p>
+          <p><strong>Email:</strong> mdnafizalifat@gmail.com</p>
           <p><strong>Phone:</strong> +1 (437) 733-4613</p>
           <p><strong>Location:</strong> London, Ontario, Canada</p>
           <p>
