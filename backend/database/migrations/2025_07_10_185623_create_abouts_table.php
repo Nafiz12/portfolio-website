@@ -14,8 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('abouts', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id();                              // Primary key
+            $table->text('bio');                       // The about me text
+            $table->string('profile_image')->nullable(); // Optional profile photo URL
+            $table->timestamps();                      // created_at and updated_at
         });
     }
 
