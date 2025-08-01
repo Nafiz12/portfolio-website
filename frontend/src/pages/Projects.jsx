@@ -18,6 +18,12 @@ export default function Projects() {
       link: "https://github.com/Nafiz12/portfolio-website",
       label: "GitHub Repo",
     },
+     {
+      title: "khelapora",
+      description: "The project aims to build a dynamic website with a secure administrative panel. The key features include a user-friendly dashboard, dynamic content management, and role-based access control.",
+      link: "https://github.com/Nafiz12/khelapora",
+      label: "GitHub Repo",
+    },
     {
       title: "Audit360",
       description: "Microservice-based audit management system built with Spring Boot at DataSoft.",
@@ -26,7 +32,7 @@ export default function Projects() {
       title: "Microfin360",
       description: "Large-scale SaaS for 700+ MFIs in Bangladesh, migrated to Laravel + Vue.js architecture.",
     },
-  ];
+       ];
 
   return (
     <section className="w-screen min-h-screen bg-gray-50 px-4 py-3 flex items-center justify-center">
