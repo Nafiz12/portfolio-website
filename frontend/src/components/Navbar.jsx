@@ -1,4 +1,5 @@
 import { FaDownload } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -15,6 +16,13 @@ export default function Navbar() {
         </div>
 
         {/* Right resume button */}
+        <div className="flex items-center gap-4">
+          <Link
+            to="/admin/login"
+            className="text-blue-600 font-semibold hover:underline"
+          >
+            Login
+          </Link>
         <a
 
           href="/Al_Ifat_Md_Nafiz_Resume.pdf"
@@ -25,6 +33,7 @@ export default function Navbar() {
           <FaDownload className="mr-2" />
           Download Resume
         </a>
+        </div>
       </div>
     </nav>
   );
