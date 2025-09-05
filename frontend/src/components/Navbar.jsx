@@ -21,7 +21,7 @@ export default function Navbar() {
             to="/admin/login"
             className="text-blue-600 font-semibold hover:underline"
           >
-            Login
+            {/* Login */}
           </Link>
         <a
 
