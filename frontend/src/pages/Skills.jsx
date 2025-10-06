@@ -19,7 +19,7 @@ export default function Skills() {
             <div className="md:w-[300px]">
               <h2 className="text-lg font-semibold mb-2">📦 Frameworks & Libraries</h2>
               <ul className="list-disc list-inside space-y-1 text-sm">
-                <li>Laravel, CodeIgniter, Spring Boot</li>
+                <li>Laravel, CodeIgniter, Spring Boot, WordPress</li>
                 <li>Vue.js, React.js, Tailwind CSS</li>
               </ul>
             </div>
