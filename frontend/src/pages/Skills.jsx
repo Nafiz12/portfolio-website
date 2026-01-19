@@ -12,7 +12,7 @@ export default function Skills() {
             <div className="md:w-[320px]">
               <h2 className="text-lg font-semibold mb-2">👨‍💻 Languages</h2>
               <ul className="list-disc list-inside space-y-1 text-sm">
-                <li>PHP (expert), JavaScript (ES6+), Java</li>
+                <li>PHP (expert), JavaScript (ES6+), Java, Python</li>
                 <li>HTML5, CSS3, jQuery</li>
               </ul>
             </div>
