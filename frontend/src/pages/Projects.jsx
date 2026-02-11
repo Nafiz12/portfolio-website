@@ -25,6 +25,16 @@ export default function Projects() {
       label: "GitHub Repo",
     },
     {
+      title: "Practice UI (Vue)",
+      TechStack: "Tech Stack: Vue 3, Vite, Tailwind CSS",
+      description:
+        "Practice implementation of UI components and layouts built with Vue 3 and Vite.",
+      links: [
+        { label: "Live Demo", url: "https://buildingfeaturewithvue.vercel.app" },
+        { label: "GitHub Repo", url: "https://github.com/Nafiz12/vue-practice-ui" },
+      ],
+    },
+    {
       title: "FIFA World Cup Hub (In Progress)",
       TechStack: "Tech Stack: Laravel, Vue 3, Tailwind CSS, MySQL, OpenAI API, Railway, Vercel",
       description:
