@@ -4,6 +4,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import Publications from './pages/Publications';
+import Certifications from './pages/Certifications';
 import Navbar from './components/Navbar';
 
 export default function App() {
@@ -13,6 +15,8 @@ export default function App() {
       about: "About | Md Nafiz Al Ifat",
       skills: "Skills | Md Nafiz Al Ifat",
       projects: "Projects | Md Nafiz Al Ifat",
+      publications: "Publications | Md Nafiz Al Ifat",
+      certifications: "Certifications | Md Nafiz Al Ifat",
       contact: "Contact | Md Nafiz Al Ifat",
     };
 
@@ -62,6 +66,16 @@ export default function App() {
         <section id="projects" className="relative">
           <div className="absolute top-0 h-1 w-full" data-observe="projects" />
           <Projects />
+        </section>
+
+        <section id="certifications" className="relative">
+          <div className="absolute top-0 h-1 w-full" data-observe="certifications" />
+          <Certifications />
+        </section>
+
+        <section id="publications" className="relative">
+          <div className="absolute top-0 h-1 w-full" data-observe="publications" />
+          <Publications />
         </section>
 
         <section id="contact" className="relative">

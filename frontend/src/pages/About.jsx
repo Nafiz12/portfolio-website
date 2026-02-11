@@ -97,7 +97,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Certifications */}
+          {/* Certifications
           <div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">📜 Certifications</h2>
             <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
@@ -109,7 +109,7 @@ export default function About() {
               <li>Ask Questions to Make Data-Driven Decisions (3SMZ8RMPVRTN) – Google (June 2023)</li>
               <li>Foundations: Data, Data, Everywhere (L9UH6GSDZXSQ) – Google (January 2023)</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Hobbies */}
           <div>
