@@ -31,7 +31,7 @@ export default function Projects() {
         "Practice implementation of UI components and layouts built with Vue 3 and Vite.",
       links: [
         { label: "Live Demo", url: "https://buildingfeaturewithvue.vercel.app" },
-        { label: "GitHub Repo", url: "https://github.com/Nafiz12/vue-practice-ui" },
+        { label: "GitHub Repo", url: "https://github.com/Nafiz12/vue_code_pratice" },
       ],
     },
     {
