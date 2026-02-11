@@ -65,8 +65,8 @@ export default function Certifications() {
 
   return (
     <section className="w-screen min-h-screen flex items-center justify-center bg-gray-50 px-4 py-6">
-      <div className="max-w-6xl w-full bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-4xl font-bold text-blue-600 mb-8 text-center">Certifications</h1>
+      <div className="max-w-6xl w-full bg-white p-4 rounded-lg shadow-md wrap-anywhere">
+        <h1 className="text-8xl font-bold text-blue-600 mb-8 text-center">Certifications</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {sortedCertifications.map((cert, i) => (
