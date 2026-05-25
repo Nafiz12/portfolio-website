@@ -35,7 +35,7 @@ export default function Projects() {
       ],
     },
     {
-      title: "FIFA World Cup Hub (In Progress)",
+      title: "FIFA World Cup Hub",
       TechStack: "Tech Stack: Laravel, Vue 3, Tailwind CSS, MySQL, OpenAI API, Railway, Vercel",
       description:
         "An interactive web app that lets users explore FIFA World Cup history, fixtures, and records through a clean, responsive interface. It features an AI-powered chat assistant built with OpenAI’s API, real-time tournament data, and a secure Laravel backend with optimized REST APIs.",
@@ -43,6 +43,16 @@ export default function Projects() {
         { label: "Live Site", url: "https://worldcup2026hub.vercel.app/" },
         { label: "GitHub Repo", url: "https://github.com/Nafiz12/world-cup-hub" },
       ],
+    },
+     {
+        title: "EPL Football Tracker",
+        TechStack: "Tech Stack: Python Flask, SQLite, Vanilla JavaScript, HTML, CSS, Railway",
+        description:
+          "A full-stack football tracking web application featuring live EPL 2025/26 match data, auto-calculated league standings, top scorers leaderboard, and dynamic team filtering. Built with a Python Flask REST API backend, SQLite database queries using CTEs and GROUP BY operations, and a responsive vanilla JavaScript frontend with dynamic DOM manipulation and modal-based interactions.",
+        links: [
+          { label: "Live Site", url: "https://nafizfootballtracker.up.railway.app/" },
+          { label: "GitHub Repo", url: "https://github.com/Nafiz12/football-trackerL" },
+        ],
     },
     {
       title: "Khelapora",
