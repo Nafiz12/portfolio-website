@@ -1,12 +1,27 @@
 export default function Certifications() {
   const certifications = [
     {
+      title: "Python for Data Science, AI & Development",
+      issuer: "IBM",
+      date: "2026",
+      credentialId: "",
+      link: "https://www.coursera.org/account/accomplishments/verify/TC7JSWVGISOQ"
+    },
+    {
+      title: "Adobe Commerce Foundation",
+      issuer: "Adobe",
+      date: "2026",
+      credentialId: "",
+      link: "https://www.coursera.org/account/accomplishments/specialization/MDM1IGLTTWG0"
+    },
+    {
       title: "Software Engineering Essentials",
       issuer: "Coursera",
       date: "2025",
       credentialId: "",
       link: "https://www.credly.com/badges/2fc05920-d089-46ae-9947-4ad688c2e5da/linked_in_profile"
     },
+    
      {
       title: "Progressive Web App with JavaScript: Make a Scavenger PWA",
       issuer: "Coursera",
