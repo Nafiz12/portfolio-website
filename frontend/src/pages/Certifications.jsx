@@ -5,7 +5,7 @@ export default function Certifications() {
       issuer: "IBM",
       date: "2026",
       credentialId: "",
-      link: "https://www.coursera.org/account/accomplishments/verify/TC7JSWVGISOQ"
+      link: "https://www.coursera.org/account/accomplishments/verify/UF9LC1L7Z7LZ"
     },
     {
       title: "Adobe Commerce Foundation",
