@@ -3,42 +3,47 @@ export default function Skills() {
     {
       emoji: "👨‍💻",
       title: "Languages",
-      skills: ["PHP", "JavaScript (ES6+)", "Java", "Python", "HTML5", "CSS3", "jQuery"],
+      skills: ["PHP", "JavaScript (ES6+)", "TypeScript", "Python", "Java", "HTML5", "CSS3", "jQuery"],
     },
     {
       emoji: "📦",
       title: "Frameworks & UI",
-      skills: ["Laravel", "CodeIgniter", "Spring Boot", "Vue.js", "React.js", "Tailwind CSS", "WordPress", "Adobe Commerce"],
+      skills: ["Laravel", "Vue.js 3", "React.js", "CodeIgniter", "Symfony", "Livewire", "Alpine.js", "Node.js", "Spring Boot", "Tailwind CSS", "WordPress"],
     },
     {
       emoji: "🧱",
       title: "Architecture & APIs",
-      skills: ["RESTful APIs", "MVC", "Microservices", "OAuth 2.0", "JWT", "API Security", "Reusable Packages"],
+      skills: ["REST APIs", "GraphQL", "Microservices", "MVC", "OAuth2 / JWT", "OWASP", "API Security", "Event-Driven Architecture", "RabbitMQ"],
     },
     {
       emoji: "☁️",
-      title: "DevOps & Tooling",
-      skills: ["Docker", "GitHub Actions", "Jenkins", "CI/CD Pipelines", "AWS (EC2, S3, IAM)", "Git", "Postman", "VS Code", "Figma"],
+      title: "Cloud & DevOps",
+      skills: ["AWS (EC2, S3, IAM)", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "CI/CD Pipelines", "Firebase", "Railway"],
     },
     {
       emoji: "💾",
-      title: "Databases & Search",
-      skills: ["MySQL", "Performance Tuning", "PostgreSQL", "Redis", "GraphQL"],
+      title: "Databases & Storage",
+      skills: ["MySQL", "PostgreSQL", "Redis", "NoSQL", "Firestore", "SQLite", "Performance Tuning", "Background Jobs"],
     },
     {
       emoji: "🧪",
       title: "Quality & Performance",
-      skills: ["Unit Testing", "Integration Testing", "E2E Testing", "PHPUnit", "Legacy Refactoring", "Technical Debt Reduction", "Performance Optimization"],
+      skills: ["PHPUnit", "TDD", "Unit Testing", "Integration Testing", "Performance Testing", "Technical Debt Reduction", "Legacy Refactoring", "Debugging"],
+    },
+    {
+      emoji: "🤖",
+      title: "AI & LLM",
+      skills: ["Claude Code", "OpenAI GPT-3.5/4", "Prompt Engineering", "LLM Integration", "AI-Assisted Development", "Parameter Tuning", "Caching Strategies"],
     },
     {
       emoji: "📋",
       title: "Practices & Standards",
-      skills: ["Agile / Scrum", "Code Reviews", "Documentation", "WCAG 2.x", "SOLID Principles", "SDLC"],
+      skills: ["Agile / Scrum", "Code Reviews", "WCAG 2.1", "SOLID Principles", "Design Patterns", "SDLC", "Pair Programming", "Technical Documentation"],
     },
     {
       emoji: "🌐",
-      title: "Communication",
-      skills: ["English (Professional)", "Cross-team Collaboration", "Mentoring"],
+      title: "Collaboration",
+      skills: ["Mentoring", "Cross-team Collaboration", "Sprint Planning", "Stakeholder Communication", "English (Professional)"],
     },
   ];
 
