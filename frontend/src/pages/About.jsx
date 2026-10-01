@@ -53,6 +53,28 @@ export default function About() {
             <h2 className="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">💼 Work Experience</h2>
             <div className="space-y-6">
               <div>
+                <h3 className="font-semibold">Laboratory Manager (Curriculum and Technical Development)</h3>
+                <p className="text-sm text-gray-600">Western University (Aug 2026 – Present)</p>
+                <ul className="list-disc list-inside text-sm text-gray-500 mt-1 space-y-1">
+                  <li>Designed and redeveloped laboratory curriculum, assignments, and materials for multiple undergraduate Computer Science courses.</li>
+                  <li>Developed and maintained lab environments using databases, version control, testing frameworks, and AI-assisted development tools.</li>
+                  <li>Created lab exercises, tutorials, and course resources for modern topics including UI/UX and code-assisting LLMs.</li>
+                  <li>Collaborated with faculty to identify curriculum gaps, modernize lab learning, and improve consistency across course sections.</li>
+                  <li>Trained and supported TAs and instructors on technical tools and instructional delivery, then refined content using outcomes and feedback.</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold">Full Stack Developer</h3>
+                <p className="text-sm text-gray-600">BCB Metal Inc. (May 2026 – Present)</p>
+                <ul className="list-disc list-inside text-sm text-gray-500 mt-1 space-y-1">
+                  <li>Leading the redesign and modernization of the company website.</li>
+                  <li>Developing an internal management system to streamline business operations and improve workflow efficiency.</li>
+                  <li>Designing and implementing frontend and backend features using modern web technologies.</li>
+                  <li>Collaborating with company leadership to gather requirements and deliver business-focused solutions.</li>
+                  <li>Managing deployment, maintenance, and ongoing system enhancements.</li>
+                </ul>
+              </div>
+              <div>
                 <h3 className="font-semibold">Graduate Teaching Assistant</h3>
                 <p className="text-sm text-gray-600">Western University (Jan 2024 – Apr 2025)</p>
                 <ul className="list-disc list-inside text-sm text-gray-500 mt-1 space-y-1">
